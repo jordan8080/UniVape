@@ -1,9 +1,8 @@
 <div class="bet-container">
   <h1>{{ title }}</h1>
-  <p>{{ description }}</p>
+  <p>{{ description }}</p><br>
 
   <ul class="bet-list">
-    {{ betOptions }}
     <li *ngFor="let bet of betOptions">
       {{ bet.name }}
     </li>

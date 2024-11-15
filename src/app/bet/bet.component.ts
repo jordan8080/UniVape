@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 import {Bet} from './bet';
+import {NgFor, NgForOf} from '@angular/common';
 
 @Component({
   selector: 'app-bet',
   templateUrl: './bet.component.html',
   styleUrls: ['./bet.component.css'],
+  imports: [
+    NgFor
+  ],
   standalone: true
 })
 export class BetComponent {
