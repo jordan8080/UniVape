@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import {BetComponent} from './bet/bet.component';
 
 @Component({
   selector: 'app-root',

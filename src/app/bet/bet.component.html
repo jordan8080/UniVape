@@ -1,0 +1,11 @@
+<div class="bet-container">
+  <h1>{{ title }}</h1>
+  <p>{{ description }}</p>
+
+  <ul class="bet-list">
+    {{ betOptions }}
+    <li *ngFor="let bet of betOptions">
+      {{ bet }}
+    </li>
+  </ul>
+</div>
