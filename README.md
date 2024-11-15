@@ -1,22 +1,27 @@
-# Univape
+# UniVape
 
-## Description du projet
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
 
-**Univape** est une plateforme hybride qui fusionne l'univers des paris sportifs en ligne (inspirée par Unibet) et la communauté des utilisateurs de cigarettes électroniques. L'idée est de créer un site web où les utilisateurs peuvent non seulement parier sur des événements sportifs, mais aussi discuter, partager des conseils et accéder à des ressources sur la vape.
+## Development server
 
-Le projet est développé en **Java** avec l'IDE **IntelliJ IDEA**.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Fonctionnalités
+## Code scaffolding
 
-- Inscription et authentification des utilisateurs.
-- Interface de paris sportifs inspirée du fonctionnement d'Unibet.
-- Forums et espaces de discussion autour des produits de vape.
-- Comparaison de produits et de prix pour les accessoires de vape.
-- Système de gestion des paris et historique des transactions.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Technologies Utilisées
+## Build
 
-- **Langage principal** : Java
-- **Base de données** : MySQL
-- **Front-end** : HTML5, CSS3, JavaScript
-- **IDE** : IntelliJ IDEA
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
